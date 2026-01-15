@@ -5,7 +5,7 @@ int main(void) {
 
     // TODO: Replace the placeholder information below
     printf("Name: YOUR_NAME_HERE\n");
-    printf("R#: ****XXXX\n");
+    printf("R#: ****XXXXX\n");
     printf("Section: XXX\n");
     printf("Message: I can use GitHub for CS2314 labs!\n");
 

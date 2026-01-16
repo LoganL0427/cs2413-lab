@@ -154,6 +154,7 @@ git add .
 git commit -m "labXX: complete"
 git push origin main
 ```
+You only need to submit your GitHub repo link for any code assignment.
 ---
 ## Academic Integrity
 

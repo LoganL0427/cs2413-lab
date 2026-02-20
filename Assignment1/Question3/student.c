@@ -27,7 +27,44 @@
 
 int* plusOne(int* digits, int digitsSize, int* returnSize) {
     // TODO: implement
+    int index = digitsSize-1;
+    int finalSize;
+    int carryOver = 1;
 
+    for(int i = index; i >= 0; i--) {
+        if(digits[i] < 9) {
+            digits[i]++;
+            carryOver = 0;
+            break;
+        }
+        else {
+            digits[i] = 0;
+        }
+    }
+
+    if(carryOver == 1) {
+        finalSize = digitsSize + 1;
+    }
+    else {
+        finalSize = digitsSize;
+    }
+
+    int* result = malloc(finalSize * sizeof(int));
+
+    if(carryOver == 1) {
+        result[0] = 1;
+        for(int i = 1; i < finalSize; i++) {
+            result[i] = 0;
+        }
+    }
+    else {
+        for(int i = 0; i < finalSize; i++) {
+            result[i] = digits[i];
+        }
+    }
+
+    *returnSize = finalSize;
+    return result;
     
 }
 

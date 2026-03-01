@@ -2,13 +2,6 @@
 
 This lab focuses on Linked List.
 
-Folder structure:
-
-Lab03/ ├── Makefile ├── Question1/ (Reverse Linked List) ├── Question2/
-(Swap Nodes in Pairs) ├── Question3/ (Linked List Cycle Detection) ├──
-Question4/ (Middle Node of Linked List)
-
-
 # Question 1 -- Reverse Linked List
 
 
@@ -103,7 +96,6 @@ Description: Return the value of the middle node.
 
 If the list has an even number of nodes, return the SECOND middle node.
 
-If the list has EVEN number of nodes, return the SECOND middle node.
 
   ------------------------
   Example A (Odd Length)
@@ -133,11 +125,7 @@ Command to test:
 
 # General Instructions
 
-Compile and run default (Question 1):
-
-    make
-
-Run specific question:
+Compile and Run specific question:
 
     make run1
     make run2
